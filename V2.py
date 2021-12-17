@@ -35,7 +35,7 @@ def checkUnique(text):
             return True
 
 def addpost(post):
-    with open('test.txt','a') as f:
+    with open('posts.txt','a') as f:
         f.write(f'{post}\n')
 
 def makePost():    
